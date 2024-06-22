@@ -1,0 +1,98 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+  }
+  
+  .navbar-container{
+    text-align: center;
+  }
+
+  footer{
+    text-align: center;
+  }
+  
+  body {
+    font-family: Poppins, sans-serif;
+    background-color: #004b7c;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(243, 11, 11);
+    box-shadow: 0 2px 4px rgba(150, 197, 216, 0.822);
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+  }
+  
+  form {
+    width: 100%;
+    padding: 50px;
+    background-color: #53585e00;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ad1dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #d6e8e9;
+  }
+  
+  .hasil {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+
+  .hasil p {
+    margin-bottom: 0;
+  }
+  
+  .hasil span {
+    font-weight: bold;
+  }
+  
+    .container {
+      background-color: white
+      ;
+    }
+    input[type="text"],
+    input[type="number"] {
+      border-color: #212529;
+    }
+    button[type="submit"] {
+      background-color: #06235a;
+      color: rgb(252, 4, 4);
+    }
+    .hasil {    
+      background-color: #0a80f5;
+    }
